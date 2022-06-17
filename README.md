@@ -18,6 +18,7 @@ This project was developed for angle/pose estimation **(pitch, yaw, roll)** usin
 ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/828696f8-a9d3-4d03-a19f-6a08622ece0c/Untitled.png)
 
 ### Data Preprocessing
+---
 
 After reading the data 
 
@@ -35,7 +36,8 @@ After reading the data
      (a constant used to discern outliers). Add 1.5 x (IQR) to the third quartile. Any number greater than this is a suspected outlier.
 4. Normalization of all selected features from [0, 1]
 
-### Model
+### Model 
+---
 
 1. Dividing data using `train_test_split` from `sklearn.model_selection`
     - Training: **60%**
@@ -52,6 +54,7 @@ After reading the data
     - AdaBoostRegressor
 
 ### Model Performance and **Landmarks**
+---
 
 - **Pitch**: **12** landmarks were used
     - R2-score for testing data: **92.12% (SVR using Grid Search)**
@@ -61,6 +64,7 @@ After reading the data
     - R2-score for testing data: **93.28% (SVR using Grid Search)**
 
 ### Evaluation Metrices
+---
 
 - R2 Score
 - Mean Absolute Error (MAE)
@@ -72,8 +76,9 @@ After reading the data
 - Median Absolute Error
 
 ### Video Trial
+---
+<a href="https://drive.google.com/file/d/1--1clYecOA_G6BgAU73B839oS9DkdIty/view?usp=sharing"><img src="(https://drive.google.com/file/d/1--1clYecOA_G6BgAU73B839oS9DkdIty/view?usp=sharing" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
 
-[https://drive.google.com/file/d/1--1clYecOA_G6BgAU73B839oS9DkdIty/view?usp=sharing](https://drive.google.com/file/d/1--1clYecOA_G6BgAU73B839oS9DkdIty/view?usp=sharing)
 
 ### [References](https://github.com/Abdelrhman-Amr-98/Head-Pose-Estimation/tree/main/Sources%20and%20References)
 
