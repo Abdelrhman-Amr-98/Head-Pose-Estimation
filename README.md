@@ -77,9 +77,7 @@ After reading the data
 
 ### Video Trial
 ---
-<a href="https://drive.google.com/file/d/1--1clYecOA_G6BgAU73B839oS9DkdIty/view?usp=sharing"><img src="(<img width="1147" alt="image" src="https://user-images.githubusercontent.com/71623159/174401941-6b282df8-4de3-49e9-8333-2f7fc1b2b933.png">" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
-    
-<a href="{https://drive.google.com/file/d/1--1clYecOA_G6BgAU73B839oS9DkdIty/view?usp=sharing}" title="Link Title"><img src="{<img width="1147" alt="image" src="https://user-images.githubusercontent.com/71623159/174401966-ba360170-3c2f-4d64-b9c2-034a7cdb80ff.png">}" alt="Alternate Text" /></a>
+<a href="https://drive.google.com/file/d/1--1clYecOA_G6BgAU73B839oS9DkdIty/view?usp=sharing"><img src="(<img width="1147" alt="image" src="https://user-images.githubusercontent.com/71623159/174401941-6b282df8-4de3-49e9-8333-2f7fc1b2b933.png">" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" /></a>
 
 
 ### [References](https://github.com/Abdelrhman-Amr-98/Head-Pose-Estimation/tree/main/Sources%20and%20References)
