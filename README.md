@@ -8,14 +8,14 @@ This work is done with collaboration of my colleague and my friend: **Dina Zakar
 
 This project was developed for angle/pose estimation **(pitch, yaw, roll)** using **68** landmarks from DLib with models trained on **AFLAW2000** Dataset
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/95924365-a9c0-4a0d-910f-64d36e44f17d/Untitled.png)
+![image](https://user-images.githubusercontent.com/71623159/174402203-15a79be9-1798-4c44-b120-0d5b1a0e8bc2.png)
 
 <aside>
 💡 3D Reconstruction from 2D reference was performed.
 
 </aside>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/828696f8-a9d3-4d03-a19f-6a08622ece0c/Untitled.png)
+![image](https://user-images.githubusercontent.com/71623159/174402079-74ef8b40-383f-4ca0-ae81-b0110c45fdc3.png)
 
 ### Data Preprocessing
 ---
@@ -24,7 +24,7 @@ After reading the data
 
 1. Normalization of all the landmarks to one referenced landmark.
     
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/be00a9eb-75ce-4fd3-9ebb-643437e58ed0/Untitled.png)
+    ![image](https://user-images.githubusercontent.com/71623159/174402116-af16e34c-1867-413e-9024-0d84b4cd660a.png)
     
     - Using the sparse representation of the normalized coordinates in this [paper](https://github.com/Abdelrhman-Amr-98/Head-Pose-Estimation/blob/main/Sources%20and%20References/%5B1%5D%20Sparse_Bayesian_Regression_for_Head_Pose_Estimation.pdf) outline **3.1**
     - Given that we have the nose landmark [**31**] performing as the CG feature of the face
@@ -77,7 +77,9 @@ After reading the data
 
 ### Video Trial
 ---
-<a href="https://drive.google.com/file/d/1--1clYecOA_G6BgAU73B839oS9DkdIty/view?usp=sharing"><img src="(https://drive.google.com/file/d/1--1clYecOA_G6BgAU73B839oS9DkdIty/view?usp=sharing" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+<a href="https://drive.google.com/file/d/1--1clYecOA_G6BgAU73B839oS9DkdIty/view?usp=sharing"><img src="(<img width="1147" alt="image" src="https://user-images.githubusercontent.com/71623159/174401941-6b282df8-4de3-49e9-8333-2f7fc1b2b933.png">" style="width: 650px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+    
+<a href="{https://drive.google.com/file/d/1--1clYecOA_G6BgAU73B839oS9DkdIty/view?usp=sharing}" title="Link Title"><img src="{<img width="1147" alt="image" src="https://user-images.githubusercontent.com/71623159/174401966-ba360170-3c2f-4d64-b9c2-034a7cdb80ff.png">}" alt="Alternate Text" /></a>
 
 
 ### [References](https://github.com/Abdelrhman-Amr-98/Head-Pose-Estimation/tree/main/Sources%20and%20References)
